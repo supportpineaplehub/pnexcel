@@ -1,0 +1,29 @@
+/* Kustomisasi tampilan inline code */
+.markdown-section code {
+  background-color: #f4f4f4;  /* Warna latar belakang yang lebih terang */
+  color: #000000;  /* Warna teks lebih gelap agar lebih kontras */
+  font-weight: normal;  /* Mengurangi ketebalan font */
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  border: 1px solid #dcdcdc;  /* Border yang lebih ringan */
+}
+
+/* Kustomisasi untuk highlight teks yang dipilih */
+.markdown-section ::selection {
+  background: #ffecb3;
+  color: #333;
+}
+
+.giscus {
+  margin-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1rem;
+}
+
+.giscus-frame {
+  width: 100% !important;
+  max-width: 100%;
+  border: none;
+}
