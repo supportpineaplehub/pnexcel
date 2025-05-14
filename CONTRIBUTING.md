@@ -11,7 +11,9 @@ Kontribusi dari siapa pun — pemula atau ahli — sangat kami hargai.
 2. Buat branch baru untuk perubahanmu  
    ```bash
    git checkout -b fitur-nama-anda
-````
+```
+=======
+   ```
 
 3. Lakukan perubahan (markdown, struktur, perbaikan, dll.)
 4. Commit perubahan
